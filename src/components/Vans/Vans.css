@@ -48,11 +48,7 @@ main button {
   color: white;
   font-size: 1rem;
 }
-span {
-  position: absolute;
-  bottom: 10px;
-  color: rgba(240,240,240,0.5);
-}
+
 .about {
   background-color: #fff2e1;
   height: 100%;
@@ -109,4 +105,94 @@ span {
   width: 100%;
   height: 60px;
   
+}
+.vans-cont {
+  padding-inline: 10px;
+  max-width: 500px;
+}
+.vans-head {
+  height: 100px;
+  background-color: #fff2e1;
+  margin-top: 0;
+}
+.vans-head h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.vans-filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.vans-sub {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr ;
+}
+
+.vans {
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0;
+  margin-top: 1rem;
+  color: black;
+}
+.vans img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 5px;
+}
+.vans-txt {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.vans-txt .vname {
+  font-weight: bold;
+  padding: 0;
+  margin-block: 0.5rem;
+}
+.vans-txt .vprice {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  
+}
+.vans-txt .vprice span {
+  font-weight: 400;
+}
+.vans-type {
+  margin: 0;
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+  color: white;
+  justify-content: center;
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+}
+
+.van-detail {
+  padding-inline: 10px;
+  max-width: 500px;
+}
+.van-detail img {
+  width: 100%;
+  height: auto;
+  margin-block: 20px;
+  border-radius: 5px;
+}
+.rent-btn {
+  width: 100%;
+  border: none;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
 }

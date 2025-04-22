@@ -1,4 +1,14 @@
-
+body {
+  background-color: #fff2e1;
+}
+#root {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  
+}
 .head {
   background-color: #fff2e1;
   display: flex;
@@ -7,6 +17,8 @@
   justify-content: space-between;
   padding-inline: 10px;
   height: 100px;
+  max-width: 500px;
+  margin-bottom: 0;
 }
 .head .title {
   font-size: 2rem;
@@ -23,4 +35,18 @@ nav a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+  background-color: #333;
+  color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  position: absolute;
+  bottom: -50px;
 }

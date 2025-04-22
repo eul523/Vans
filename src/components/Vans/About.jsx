@@ -13,7 +13,6 @@ export default function About(){
        <button>Explore your vans</button>
      </section>
      </div>
-     <p className="foot">&copy; 2022 #vanlife</p>
    </section>
  )
 }
