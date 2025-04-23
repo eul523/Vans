@@ -1,0 +1,115 @@
+.host-wrapper {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.host-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0;
+}
+.host-nav a {
+  color: black;
+  text-decoration: none;
+  
+}
+.host-active {
+  text-decoration: underline;
+  transform: scale(1.2);
+  font-weight: bold;
+}
+
+.host-vans-grand {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+.host-van {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  background-color: whitesmoke;
+  padding: 5px;
+  gap: 1rem;
+  width: calc(100% - 20px);
+  margin: 0;
+  margin-inline: auto;
+}
+.host-van img {
+  width: 30%;
+  height: auto;
+  border-radius: 5px;
+}
+.host-van-txt {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.host-van-detail {
+  background-color: whitesmoke;
+  width: calc(100% - 40px);
+  margin-inline: auto;
+  margin-block: 40px;
+  padding: 10px;
+}
+.host-van-head {
+  display: flex;
+  gap: 1rem;
+  
+}
+.host-van-head img {
+  width: 30%;
+  height: auto;
+  border-radius: 5px;
+}
+.host-head-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+}
+.host-head-txt h2, .host-head-txt p {
+  margin: 0;
+  
+}
+.vans-type {
+  
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+.host-detail-grand {
+  width: 100%;
+}
+.host-van-detail nav {
+  width: calc(100% - 40px);
+  display: flex;
+  justify-content: space-evenly;
+  margin-block: 15px;
+}
+.host-van-detail a {
+  color: black;
+}
+.host-deep-cont {
+  width: calc(100% - 40px);
+  margin-inline: auto;
+  margin-top: 30px;
+}

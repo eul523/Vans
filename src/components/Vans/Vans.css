@@ -8,12 +8,51 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
+
+.head {
+  background-color: #fff2e1;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  height: 100px;
+  margin-bottom: 0;
+}
+.head .title {
+  font-size: 2rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: black;
+}
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+.mnav a {
+  text-decoration: none;
+  color: black;
+}
+.mnav a:hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+  font-weight: bold;
+}
+.main-active {
+  text-decoration: underline;
+  transform: scale(1.2);
+  font-weight: bold;
+}
+
+
 main {
   width: 100%;
   height: 100vw;
   max-height: 500px;
-  max-width: 500px;
+  
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -53,7 +92,7 @@ main button {
   background-color: #fff2e1;
   height: 100%;
   gap: 0.5rem;
-  max-width: 500px;
+  
 }
 .about div {
   margin-inline: 10px;
@@ -108,7 +147,7 @@ main button {
 }
 .vans-cont {
   padding-inline: 10px;
-  max-width: 500px;
+  
 }
 .vans-head {
   height: 100px;
@@ -181,7 +220,7 @@ a {
 
 .van-detail {
   padding-inline: 10px;
-  max-width: 500px;
+  
 }
 .van-detail img {
   width: 100%;
